@@ -6,9 +6,6 @@ else
 fi
 echo "copying $repo/.bashrc to $HOME/.bashrc"
 cp $repo/.bashrc $HOME/.bashrc
- 
-echo "sourcing .bashrc"
-source $HOME/.bashrc
 
 if [ -f $HOME/.vimrc ]; then
     echo "~/.vimrc already exists,overwriting";
