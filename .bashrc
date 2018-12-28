@@ -1,3 +1,5 @@
+#mac global settings
+#source /etc/bashrc;
 #prompt
 export PS1='\u:\w $ ';
 
